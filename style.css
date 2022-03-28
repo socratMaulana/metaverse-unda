@@ -8,7 +8,9 @@ body{
 			}
 
 #Nav {
-			background-color: purple;
+			background-color: transparent;
+			position: absolute;
+			top: 20px;
 }
 
 .warnaln{
@@ -33,17 +35,44 @@ body{
         left: 100px;
 }
 
-#isi {
+
+.img1 {
+
+				position: absolute;
+				top: 200px;
+				left:650px ;
+
+}
+
+.bg1 {
+			  
+			  background-size: cover;
+			  opacity: 0.4000500189604645;
+			  position: absolute;
+			  filter: blur(15px);
+  			-webkit-filter: blur(50px);
+			  top: 0px;
+			  right: 0px;
+}
+
+.isi {
 		width: 638px;
 		text-align: justify;
 		height: 290px;
 		font-family: Poppins-SemiBold;
 		font-size: 40px;
-		position: relative;
-		top: 100px;
+		position: absolute;
+		top: 250px;
 		left:120px ;
 		color: white;	
 		}
+
+#nft {
+				background: -webkit-linear-gradient(50deg, #FDAE8F, #FD1C68);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+
+}
 
 .text1 {
 			font-family: sans-serif;
@@ -66,12 +95,12 @@ body{
 
 #btn1{
 		position: absolute;
-		top: 450px;
+		top: 650px;
 		left:120px ;
 }
 #btn2 {
 		position: absolute;
-		top: 450px;
+		top: 650px;
 		left:360px ;
 }
 
@@ -79,7 +108,7 @@ body{
 		width: 850px;
 		height: 40px;
 		position: absolute;
-		top: 650px;
+		top: 900px;
 		left:250px ;
 		font-family: Poppins-SemiBold;
 		font-size: 50px;
@@ -90,7 +119,7 @@ body{
 
 #img {
 		position: absolute;
-		top: 800px;
+		top: 1100px;
 		left:50px ;
 }
 
@@ -108,7 +137,7 @@ body{
 
 #img4 {
 		position: absolute;
-		top: 800px;
+		top: 1100px;
 		left:1000px ;
 }
 
