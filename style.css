@@ -20,6 +20,11 @@ body{
 			background-color: transparent;
 }
 
+.navbar-toggler{
+		background: -webkit-linear-gradient(50deg, #FDAE8F, #FD1C68);
+		border: none;
+}
+
 
 /*Home Page*/
 
