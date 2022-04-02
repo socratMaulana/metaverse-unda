@@ -121,7 +121,7 @@ body{
 .btn-danger, .btn-danger:hover, .btn-danger:active, .btn-danger:visited {
     background-image: linear-gradient(to right, #FDAE8F, #FD1C68) !important;
     color: #070C0E;
-    font-weight: bold;
+    font-family: Poppins-SemiBold !important;
 }
 
 .btn-outline, .btn-outline:visited, .btn-outline:active {
