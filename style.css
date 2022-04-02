@@ -18,6 +18,8 @@ body{
 
 #Nav {
 			background-color: transparent;
+			position: relative;
+			top: 5px;
 }
 
 .navbar-toggler{
@@ -121,6 +123,22 @@ body{
     color: #070C0E;
     font-weight: bold;
 }
+
+.btn-outline, .btn-outline:visited, .btn-outline:active {
+  color: #FC4F4F;  
+  border-color: #FC4F4F;
+  outline-color: #FC4F4F;
+  font-family: Poppins-SemiBold !important;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.btn-outline:hover{
+	background-color: #FC4F4F;
+	border-color: #FC4F4F;
+  outline-color: #FC4F4F;
+}
+
 
 #btn1{
 		position: relative;
@@ -368,44 +386,23 @@ body{
 
 /* bantuan */
 
-.footer-bantuan {
-	top: 600px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 60px;
-    line-height: 60px;
-    background-color: rgba(0, 0, 0, 0.2);
-    text-align: center;
-    color: white;
+#footerbantuan {
+								color: white !important;
+								margin-top: 5%;
 }
 
 /*Hubungi*/
 
-.footer-hubungi {
-	top: 600px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 60px;
-    line-height: 60px;
-    background-color: rgba(0, 0, 0, 0.2);
-    text-align: center;
-    color: white;
+#footerhubungi {
+								color: white !important;
+								margin-top: 100px;
 }
 
 /*Profil*/
 
-.footer-profil {
-	top: 2200px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 60px;
-    line-height: 60px;
-    background-color: rgba(0, 0, 0, 0.2);
-    text-align: center;
-    color: white;
+#footerprofil {
+								color: white !important;
+								margin-top:-5% ;
 }
 
 
