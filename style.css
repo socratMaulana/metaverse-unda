@@ -3,15 +3,25 @@
    				src: url('Poppins-SemiBold.TTF');
    			}
 
+@font-face {
+   			font-family: "Poppins-ExtraLight";
+   				src: url('Poppins-ExtraLight.TTF');
+   			}
+
+
 body{
-			background-color: rgba(2,7,17,1);
+			background-color: rgba(2,7,17,1); 
 			}
+
+
+
 
 #Nav {
 			background-color: transparent;
-			position: absolute;
-			top: 20px;
 }
+
+
+/*Home Page*/
 
 .warnaln{
 			color: white !important;
@@ -30,18 +40,32 @@ body{
 	   		font-family: Poppins-SemiBold;
 }	
 
-#search {
+#login {
 			position: relative;
         left: 100px;
 }
 
+.kotakimg1_1{	
+								width: 600px;
+								height: 500px;
+								position: relative;
+								top: -350px;
+								left: 250px;
+
+}
 
 .img1 {
-
+				
 				position: absolute;
-				top: 200px;
-				left:650px ;
+				top: 35%;
+				left:50%;
 
+}
+
+#bg1_1{
+				position: relative;
+				top: 0%;
+				right: 0%;
 }
 
 .bg1 {
@@ -51,20 +75,20 @@ body{
 			  position: absolute;
 			  filter: blur(15px);
   			-webkit-filter: blur(50px);
-			  top: 0px;
-			  right: 0px;
+  			top: 0%;
+			  right: 0%;
 }
 
 .isi {
-		width: 638px;
+		
 		text-align: justify;
-		height: 290px;
 		font-family: Poppins-SemiBold;
-		font-size: 40px;
-		position: absolute;
-		top: 250px;
-		left:120px ;
-		color: white;	
+		font-size: 45px;
+		color: white;
+		position: relative;
+		top: 200px;
+
+
 		}
 
 #nft {
@@ -94,22 +118,22 @@ body{
 }
 
 #btn1{
-		position: absolute;
-		top: 650px;
-		left:120px ;
+		position: relative;
+		top: 250px;
+		
 }
 #btn2 {
-		position: absolute;
-		top: 650px;
-		left:360px ;
+		position: relative;
+		top: 200px;
+		left: 15px;
 }
 
 #isi2 {
 		width: 850px;
 		height: 40px;
-		position: absolute;
-		top: 900px;
-		left:250px ;
+		position: relative;
+		top: 100px;
+		left:150px ;
 		font-family: Poppins-SemiBold;
 		font-size: 50px;
 		color: white;
@@ -117,28 +141,199 @@ body{
 		padding-bottom: ;
 }
 
-#img {
-		position: absolute;
-		top: 1100px;
-		left:50px ;
+#kotak_icon {
+							width: 100%;
+							height: 500px;
+							position: relative;
+							top: -300px;
+							
 }
 
-#img2 {
-		position: absolute;
-		top: 1px;
-		left:400px ;
+
+
+
+.lingkaran1 {
+							width: 90px;
+							height: 90px;
+							background: -webkit-linear-gradient(50deg, #5B49CF,#23D3A4);
+							border-radius: 100%;
+							position: absolute;
+							top: -20px;
+							left:70px ;
 }
 
-#img3 {
-		position: absolute;
-		top: 1px;
-		left:700px ;
+.lingkaran2 {
+							width: 90px;
+							height: 90px;
+							background: -webkit-linear-gradient(45deg, #739EEC, #FF8C9F);
+							border-radius: 100%;
+							position: absolute;
+							top: -20px;
+							left:373px ;
 }
 
-#img4 {
-		position: absolute;
-		top: 1100px;
-		left:1000px ;
+.lingkaran3 {
+							width: 90px;
+							height: 90px;
+							background: -webkit-linear-gradient(50deg, #FE6F2D,#FDCE38);
+							border-radius: 100%;
+							position: absolute;
+							top: -20px;
+							left:675px ;
+}
+
+.lingkaran4 {
+							width: 90px;
+							height: 90px;
+							background: -webkit-linear-gradient(50deg, #2EA3F2,#A651FB);
+							border-radius: 100%;
+							position: absolute;
+							top: -20px;
+							left:962px ;
+}
+
+
+#icon1 {
+
+					position: absolute;
+					left: 90px;
+					color: white;
+					
+}
+
+#icon2 {
+	
+					position: absolute;
+					left: 395px;
+					color: white;
+}
+
+#icon3 {
+					position: absolute;
+					left: 695px;
+					color: white;
+}
+
+#icon4 {
+					position: absolute;
+					left: 980px;
+					color: white;
+}
+
+
+#t1 {
+			
+			text-align: justify;
+			font-family: Poppins-SemiBold;
+			font-size: 20px;
+			position: absolute;
+			top: 100px;
+			left: 25px;
+			color: white;
+
+}
+
+
+#t1_1 {
+			width: 250px;
+			text-align: center;
+			height: 300px;
+			font-family: Poppins-ExtraLight;
+			font-size: 15px;
+			line-height:25px;
+			position: absolute;
+			top: 150px;
+			color: white;
+}
+
+
+#t2 {
+			width: 275px;
+			text-align: justify;
+			font-family: Poppins-SemiBold;
+			font-size: 20px;
+			position: absolute;
+			top: 100px;
+			left: 305px;
+			color: white;
+
+}
+
+
+#t2_2 {
+			width: 270px;
+			text-align: center;
+			height: 300px;
+			font-family: Poppins-ExtraLight;
+			font-size: 15px;
+			line-height:25px;
+			position: absolute;
+			top: 150px;
+			left: 285px ;
+			color: white;
+}
+
+#t3 {
+			width: 175px;
+			text-align: justify;
+			font-family: Poppins-SemiBold;
+			font-size: 20px;
+			position: absolute;
+			top: 100px;
+			left: 655px;
+			color: white;
+
+}
+
+
+#t3_3 {
+			width: 270px;
+			text-align: center;
+			height: 300px;
+			font-family: Poppins-ExtraLight;
+			font-size: 15px;
+			line-height:25px;
+			position: absolute;
+			top: 150px;
+			left: 590px;
+			color: white;
+}
+
+
+#t4 {
+			width: 175px;
+			text-align: justify;
+			font-family: Poppins-SemiBold;
+			font-size: 20px;
+			position: relative;
+			top: 100px;
+			left: 925px;
+			color: white;
+
+}
+
+
+#t4_4 {
+			width: 270px;
+			text-align: center;
+			height: 300px;
+			font-family: Poppins-ExtraLight;
+			font-size: 15px;
+			line-height:25px;
+			position: absolute;
+			top: 150px;
+			left:880px ;
+			color: white;
+}
+
+.kotakbg1_1{
+							width: 100%px;
+							height: 500px;
+							position: relative;
+							top:950px;
+							left: -50px;
+							
+							
 }
 
 .bg2 {
@@ -146,12 +341,27 @@ body{
 			  background-size: cover;
 			  opacity: 0.4000500189604645;
 			  position: absolute;
-			  filter: blur(15px);
+			  filter: blur(30px);
   			-webkit-filter: blur(50px);
-			  top: 1100px;
+			  bottom: 0;
 			  left: 0px;
+			  
 
 			}
+
+
+
+
+/* index */
+
+#footerindex {
+								color: white !important;
+								margin-top: -300px;
+}
+
+
+
+/* bantuan */
 
 .footer-bantuan {
 	top: 600px;
@@ -165,6 +375,8 @@ body{
     color: white;
 }
 
+/*Hubungi*/
+
 .footer-hubungi {
 	top: 600px;
     position: absolute;
@@ -177,6 +389,8 @@ body{
     color: white;
 }
 
+/*Profil*/
+
 .footer-profil {
 	top: 2200px;
     position: absolute;
@@ -188,16 +402,9 @@ body{
     text-align: center;
     color: white;
 }
-.footer-index {
-	top: 1500px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    line-height: 100px;
-    background-color: rgba(0, 0, 0, 0.2);
-    text-align: center;
-    color: white;
-}
+
+
+
 
 .social-link {
   width: 30px;
