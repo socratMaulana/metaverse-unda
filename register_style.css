@@ -26,7 +26,7 @@ body {
 }
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-    background-image: linear-gradient(to right, #FF416C,#FF4B2B);
+    background-image: linear-gradient(to right, #00B4DB,#0083B0);
     color: white;
 }
 .btn-google {
