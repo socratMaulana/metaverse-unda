@@ -1,9 +1,23 @@
+@font-face {
+            font-family: "Poppins-SemiBold";
+                src: url('Poppins-SemiBold.TTF');
+            }
+
+@font-face {
+            font-family: "Poppins-ExtraLight";
+                src: url('Poppins-ExtraLight.TTF');
+            }
+
+body{
+            background-color: rgba(2,7,17,1); 
+            }
+
 .login {
   min-height: 100vh;
 }
 
 .bg-image {
-  background-image: url('https://source.unsplash.com/WEQbe2jBg40/600x1200');
+  background-image: url('https://venturebeat.com/wp-content/uploads/2022/03/GettyImages-937126612.jpg?fit=1732%2C990&strip=all');
   background-size: cover;
   background-position: center;
 }
@@ -16,4 +30,13 @@
   font-size: 0.9rem;
   letter-spacing: 0.05rem;
   padding: 0.75rem 1rem;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-image: linear-gradient(to right, #FF416C,#FF4B2B);
+    color: white;
+}
+
+#f{
+    margin-right: 50px;
 }
