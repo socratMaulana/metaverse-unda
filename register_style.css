@@ -1,12 +1,21 @@
+@font-face {
+        font-family: "Poppins-SemiBold";
+          src: url('Poppins-SemiBold.TTF');
+        }
+
+@font-face {
+        font-family: "Poppins-ExtraLight";
+          src: url('Poppins-ExtraLight.TTF');
+        }
+
 body {
-  background: #007bff;
-  background: linear-gradient(to right, #0062E6, #33AEFF);
+  background: linear-gradient(to right ,#232526,#414345);
 }
 
 .card-img-left {
-  width: 45%;
+  width: 50%;
   /* Link to your background image using in the property below! */
-  background: scroll center url('https://source.unsplash.com/WEQbe2jBg40/414x512');
+  background: scroll center url('https://content.fortune.com/wp-content/uploads/2021/10/facebook-meta-zuckerberg.jpg');
   background-size: cover;
 }
 
@@ -16,6 +25,10 @@ body {
   padding: 0.75rem 1rem;
 }
 
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-image: linear-gradient(to right, #FF416C,#FF4B2B);
+    color: white;
+}
 .btn-google {
   color: white !important;
   background-color: #ea4335;
@@ -24,4 +37,9 @@ body {
 .btn-facebook {
   color: white !important;
   background-color: #3b5998;
+}
+
+.btn-github {
+  color: white !important;
+  background-color: black;
 }
