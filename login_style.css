@@ -12,6 +12,25 @@ body{
             background-color: rgba(2,7,17,1); 
             }
 
+#Nav {
+
+            background-color: transparent;
+            top: -220%;
+}
+
+.nav-link{
+            color: white !important;
+            position: relative;
+            left: 110px;
+            font-family: Poppins-SemiBold;
+            font-size: 15px;
+}   
+
+#login {
+            position: relative;
+        left: 100px;
+}
+
 .login {
   min-height: 100vh;
 }
@@ -32,11 +51,17 @@ body{
   padding: 0.75rem 1rem;
 }
 
-.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+.btn-primary,  .btn-primary:active, .btn-primary:visited {
     background-image: linear-gradient(to right, #6441A5,#2a0845);
     color: white;
+    border-color: #6441A5;
+}
+
+.btn-primary:hover{
+    background: #4A00E0;
+    border-color:#4A00E0 ;
 }
 
 #f{
-    margin-right: 50px;
+    margin-right: 240px;
 }
