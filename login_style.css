@@ -18,8 +18,8 @@ body{
             top: -220%;
 }
 
-.nav-link{
-            color: white !important;
+.nav-link {
+            color: #FFF !!important;
             position: relative;
             left: 110px;
             font-family: Poppins-SemiBold;
