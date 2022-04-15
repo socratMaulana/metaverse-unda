@@ -44,14 +44,16 @@ if(isset($_POST['register'])){
     <title>Register Metada</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    
 </head>
-<body class="bg-light" style=" background-color: rgba(2,7,17,1); ">
+<body class="bg-light">
 
 <div class="container mt-5">
     <div class="row">
         <div class="col-md-6">
 
-        <p>&larr; <a href="index.php">Home</a>
+        <p>&larr; <a href="index.html">Home</a>
 
         <h4>Bergabunglah bersama ribuan orang lainnya...</h4>
         <p>Sudah punya akun? <a href="login.php">Login di sini</a></p>
