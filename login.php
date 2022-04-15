@@ -50,25 +50,54 @@ if(isset($_POST['login'])){
 
   </head>
 <body>
-    <div class="container-fluid ps-md-0">
+
+  <div class="container-fluid ps-md-0">
   <div class="row g-0">
+
     <div class="d-none d-md-flex col-md-4 col-lg-6 bg-image"></div>
+
     <div class="col-md-8 col-lg-6">
       <div class="login d-flex align-items-center py-5">
         <div class="container">
           <div class="row">
-            <div class="col-md-9 col-lg-8 mx-auto">
+            <div class=" mx-auto ">
+
+              <nav id="Nav" class=" navbar navbar-expand-lg navbar-light">
+
+        <div class="collapse navbar-collapse fw-normal" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mr-1" class="fontberanda">
+            <li class="nav-item active">
+              <a  class="nav-link" href="index.html"  style="margin-right: 50px; color: white; ">Beranda</a>
+            </li>
+                    
+              <li class="nav-item ">
+                <a  class="nav-link " style="margin-right: 50px; color: white;" href="hubungi.html" >Hubungi</a>
+                  </li>
+                 <li class="nav-item">
+                  <a  class="nav-link" href="profil.html" style="margin-right: 50px; color: white;">Profil</a>
+                  </li>
+                  <li class="nav-item">
+                  <a  class="nav-link" href="bantuan.html" style="color: white;" >Bantuan</a>
+                  </li>
+                </li>                 
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+              <div class="col-md-9 col-lg-8 mx-auto ">
               <h3 class="login-heading mb-4" style="color:white;font-family:Poppins-SemiBold;">Welcome to Metada!</h3>
 
               <!-- Sign In Form -->
-              <form>
+             <form action="" method="POST">
                 <div class="form-floating mb-3">
-                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                  <label for="floatingInput">Email address</label>
+                  <input type="text" class="form-control" name="username" id="floatingInput" placeholder="name@example.com">
+                  <label for="username">Email address</label>
                 </div>
                 <div class="form-floating mb-3">
-                  <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                  <label for="floatingPassword">Password</label>
+                  <input type="password" class="form-control" name="password" id="floatingPassword" placeholder="Password">
+                  <label for="password">Password</label>
                 </div>
 
                 <div class="form-check mb-3">
@@ -79,7 +108,7 @@ if(isset($_POST['login'])){
                 </div>
 
                 <div class="d-grid">
-                  <button class="btn btn-lg btn-primary btn-login text-uppercase fw-bold mb-2" type="submit">Sign in</button>
+                  <button name="login" value="Masuk" class="btn btn-lg btn-primary btn-login text-uppercase fw-bold mb-2" type="submit">Sign in</button>
                   <div class="text-center">
                     <a id="f" class="small" href="#" style="text-decoration: none;">Forgot password?</a> 
                     <a class="small"  href="register.php" style="text-decoration: none;">Create Account</a>
